@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263800251AB3946B00AC019A /* WikipediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263800241AB3946B00AC019A /* WikipediaViewController.m */; };
 		2638FFCB1AB229C700AC019A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638FFCA1AB229C700AC019A /* main.m */; };
 		2638FFCE1AB229C700AC019A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638FFCD1AB229C700AC019A /* AppDelegate.m */; };
 		2638FFD11AB229C700AC019A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638FFD01AB229C700AC019A /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263800231AB3946B00AC019A /* WikipediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaViewController.h; sourceTree = "<group>"; };
+		263800241AB3946B00AC019A /* WikipediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaViewController.m; sourceTree = "<group>"; };
 		2638FFC51AB229C700AC019A /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2638FFC91AB229C700AC019A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2638FFCA1AB229C700AC019A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				2638FFCF1AB229C700AC019A /* ViewController.h */,
 				2638FFD01AB229C700AC019A /* ViewController.m */,
 				2638FFD21AB229C700AC019A /* Main.storyboard */,
+				263800231AB3946B00AC019A /* WikipediaViewController.h */,
+				263800241AB3946B00AC019A /* WikipediaViewController.m */,
 				2638FFD51AB229C700AC019A /* Images.xcassets */,
 				2638FFD71AB229C700AC019A /* LaunchScreen.xib */,
 				2638FFC81AB229C700AC019A /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				2638FFD11AB229C700AC019A /* ViewController.m in Sources */,
 				2638FFCE1AB229C700AC019A /* AppDelegate.m in Sources */,
+				263800251AB3946B00AC019A /* WikipediaViewController.m in Sources */,
 				2638FFCB1AB229C700AC019A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				2638FFEA1AB229C700AC019A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2638FFEB1AB229C700AC019A /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				2638FFED1AB229C700AC019A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,6 @@
 
 @interface WikipediaViewController : UIViewController
 
+//@property UIView *webView;
+
 @end
